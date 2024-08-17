@@ -24,7 +24,7 @@ public class LoginSteps {
 		
 	}
 	
-	@Given("que o usuário realize o login na aplicaçao saucedemo com o perfil standard_user")
+	@Given("que o usuário realize o login na aplicaçao saucedemo com o perfil \"standard_user\"")
 	public void que_o_usuário_realize_o_login_na_aplicaçao_saucedemo_com_o_perfil_standard_user() {
 		login.enterUsername("standard_user");
 		login.enterPassword("secret_sauce");
