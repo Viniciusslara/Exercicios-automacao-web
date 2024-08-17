@@ -10,14 +10,20 @@
     <dependency>
         <groupId>io.cucumber</groupId>
         <artifactId>cucumber-java</artifactId>
-        <version>4.8.1</version> <!-- Use a versão mais recente -->
+        <version>7.18.1</version> <!-- Use a versão mais recente -->
         <scope>test</scope>
+    </dependency>
+     <!-- Selenium WebDriver -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.20.0</version> <!-- Use a versão mais recente -->
     </dependency>
     <!-- Cucumber JUnit -->
     <dependency>
         <groupId>io.cucumber</groupId>
         <artifactId>cucumber-junit</artifactId>
-        <version>4.8.1</version>
+        <version>7.18.1</version>
         <scope>test</scope>
     </dependency>
     <dependency>
