@@ -4,4 +4,43 @@
   <artifactId>exerciciosautomacao</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>q</name>
+  
+  <dependencies>
+    	<!-- Cucumber Java -->
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-java</artifactId>
+        <version>4.8.1</version> <!-- Use a versão mais recente -->
+        <scope>test</scope>
+    </dependency>
+    <!-- Cucumber JUnit -->
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-junit</artifactId>
+        <version>4.8.1</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+    	<groupId>org.seleniumhq.selenium</groupId>
+    	<artifactId>selenium-java</artifactId>
+    	<version>4.0.0</version> <!-- Use a versão mais recente disponível -->
+	</dependency>
+    <!-- JSON library -->
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20210307</version>
+    </dependency>
+    <!-- JUnit 5 -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.8.2</version>
+        <scope>test</scope>
+    </dependency>
+  
+  </dependencies>
+
+  
+  
 </project>
