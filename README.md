@@ -14,7 +14,7 @@
     os screenshot das etapas durante a execução dos testes. 
 
      • Exemplo de nomenclatura da pasta: Date_11-05-23-Time_12_16_58 
-      • Exemplo de nomenclatura do arquivo: TelaDeLogin-110523-1217.png
+     • Exemplo de nomenclatura do arquivo: TelaDeLogin-110523-1217.png
 
   Recomendado: Utilizar a estrutura Java, Maven, Junit, Cucumber e Selenium, para 
 
@@ -24,7 +24,7 @@
     cabeçalho, descrição da funcionalidade e o contexto. E por final possui pelo menos 2 
     massas de dados para que os testes sejam executados duas vezes consecutivas.
 
-# -------------------------------
+
 
 - Caminho relatório: exerciciosautomacao/target/cucumber-reports
 
