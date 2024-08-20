@@ -37,10 +37,12 @@ public class InicialPage {
     }
     
     
-    public void logout() throws InterruptedException {
-    	burgerMenu.click();
-    	Thread.sleep(100);
+    public void clickLogoutButton() throws InterruptedException {
 		logoutButton.click();
+	}
+    
+    public void clickBurgerMenu() throws InterruptedException {
+		burgerMenu.click();
 	}
 
 }
