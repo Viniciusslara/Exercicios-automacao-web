@@ -25,7 +25,7 @@
     massas de dados para que os testes sejam executados duas vezes consecutivas.
 
 
-
+#
 - Caminho relatório: exerciciosautomacao/target/cucumber-reports
 
 - Caminhas screenshots: exerciciosautomacao/target/screenshots
