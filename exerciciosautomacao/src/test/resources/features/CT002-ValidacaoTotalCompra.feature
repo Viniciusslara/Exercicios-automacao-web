@@ -1,7 +1,8 @@
 #Author: Vinicius Lara
 
 Feature: ValidarTotalCompra
-
+	
+	@test
   Scenario: validar o valor total da compra após o login até tela 07 checkout-complete e no final efetuar o logout
     
     Given que o usuário realize o login na aplicaçao saucedemo com o perfil "standard_user"

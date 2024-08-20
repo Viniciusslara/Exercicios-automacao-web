@@ -1,7 +1,7 @@
 #Author: Vinicius Lara
 
 Feature: ValidarValorCarrinho
-	@test
+	#@test
   Scenario:  validação dos valores no carinho (tela 04) de um produto qualquer no website: https://www.saucedemo.com/ ao final devemos fazer logout
     
     Given que o usuário realize o login na aplicaçao saucedemo com o perfil "standard_user"
