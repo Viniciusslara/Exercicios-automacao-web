@@ -13,6 +13,9 @@ public class CartPage {
 	@FindBy(className = "inventory_item_price")
 	private WebElement priceProduct;
 	
+	@FindBy(id = "checkout")
+	private WebElement checkoutButton;
+	
 	public CartPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -22,6 +25,10 @@ public class CartPage {
 		price = priceProduct.getText();
 		return price;
 		
+	}
+	
+	public void ClickCheckoutButton() {
+		checkoutButton.click();
 	}
 
 }
