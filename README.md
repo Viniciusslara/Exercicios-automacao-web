@@ -24,7 +24,7 @@
     cabeçalho, descrição da funcionalidade e o contexto. E por final possui pelo menos 2 
     massas de dados para que os testes sejam executados duas vezes consecutivas.
 
-# ---------------------------------------------------------------------------------------
+# -------------------------------
 
 - Caminho relatório: exerciciosautomacao/target/cucumber-reports
 
