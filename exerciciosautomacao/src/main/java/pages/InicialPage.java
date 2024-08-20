@@ -13,6 +13,9 @@ public class InicialPage {
 	@FindBy(id = "add-to-cart-sauce-labs-backpack")
 	private WebElement productBackpack;
 	
+	@FindBy(id = "add-to-cart-sauce-labs-bike-light")
+	private WebElement productBike;
+	
 	@FindBy(id = "shopping_cart_container")
 	private WebElement cartButton;
 	
@@ -36,6 +39,9 @@ public class InicialPage {
         productBackpack.click();
     }
     
+    public void selectBike () {
+        productBike.click();
+    }
     
     public void clickLogoutButton() throws InterruptedException {
 		logoutButton.click();

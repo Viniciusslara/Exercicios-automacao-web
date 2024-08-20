@@ -19,10 +19,16 @@ public class InicialSteps {
 		logger = new Logger();
 	}
 	
-	@And("selecione um dos produtos pelo botão \"Add to cart\"")
-	public void selecione_um_dos_produtos_pelo_botao_add_to_cart() {
+	@And("selecione o produto backpack pelo botão \"Add to cart\"")
+	public void selecione_o_produto_backpack_pelo_botao_add_to_cart() {
 		inicio.selectBackpack();
-		logger.takeScreenshot("SelecionandoProduto");
+		logger.takeScreenshot("SelecionandoProdutoBackpack");
+	}
+	
+	@And("selecione o produto bike pelo botão \"Add to cart\"")
+	public void selecione_um_dos_produtos_pelo_botao_add_to_cart() {
+		inicio.selectBike();
+		logger.takeScreenshot("SelecionandoProdutoBike");
 	}
     
 	@When("clicar no icone carrinho de compra")

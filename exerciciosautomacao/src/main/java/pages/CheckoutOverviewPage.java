@@ -9,9 +9,16 @@ public class CheckoutOverviewPage {
 	
 	private WebDriver driver;
 	private String price;
+	private String text;
 	
 	@FindBy(className = "summary_total_label")
 	private WebElement priceProduct;
+	
+	@FindBy(className = "complete-header")
+	private WebElement completeText;
+	
+	@FindBy(id = "finish")
+	private WebElement finishButton;
 	
 	public CheckoutOverviewPage(WebDriver driver) {
         this.driver = driver;
@@ -22,6 +29,16 @@ public class CheckoutOverviewPage {
 		price = priceProduct.getText();
 		return price;
 		
+	}
+	
+	public String getTextComplete() {
+		text = completeText.getText();
+		return text;
+		
+	}
+	
+	public void clickFinishButton() {
+		finishButton.click();
 	}
 
 }

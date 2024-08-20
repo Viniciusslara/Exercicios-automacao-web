@@ -10,7 +10,6 @@ import io.cucumber.junit.Cucumber;
 @CucumberOptions(
     features = "src/test/resources/features",      
     glue = "steps",
-    tags = "@test",
     plugin = {                                       
         "pretty",                                    
         "html:target/cucumber-reports/html-report.html"  
